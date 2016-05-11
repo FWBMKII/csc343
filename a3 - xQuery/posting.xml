@@ -1,0 +1,47 @@
+<postings>
+	<posting pID="01" >
+		<position>front</position>
+		<reqSkill what="C" level="5" importance="2" />
+		<reqSkill what="Haskell" level="4" importance="4" />
+		<reqSkill what="SQL" level="1" importance="2" />
+		<reqSkill what="MATLAB" level="5" importance="4" />
+		<questions>
+			<question qID="01" >Question11</question>
+			<question qID="03" >Question12</question>
+			<question qID="05" >Question13</question>
+		</questions>
+		<questions>
+			<question qID="01" >Question14</question>
+			<question qID="02" >Question15</question>
+			<question qID="04" >Question16</question>
+		</questions>
+	</posting>
+	<posting pID="02" >
+		<position>upside</position>
+		<reqSkill what="XQuery" level="5" importance="2" />
+		<questions>
+		</questions>
+	</posting>
+	<posting pID="03" >
+		<position>downstairs</position>
+		<reqSkill what="C" level="5" importance="2" />
+		<reqSkill what="R" level="1" importance="2" />
+		<questions>
+			<question qID="550" >Question31</question>
+		</questions>
+	</posting>
+	<posting pID="04" >
+		<position>front</position>
+		<reqSkill what="Java" level="5" importance="2" />
+	</posting>
+	<posting pID="05" >
+		<position>back</position>
+		<reqSkill what="C" level="5" importance="2" />
+		<reqSkill what="Haskell" level="4" importance="4" />
+		<reqSkill what="MATLAB" level="5" importance="4" />
+		<questions>
+			<question qID="yooooo" >Question51</question>
+		</questions>
+	</posting>
+</postings>
+ 

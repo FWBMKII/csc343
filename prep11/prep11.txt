@@ -1,0 +1,20 @@
+1.
+(a) Yes
+(b) Yes
+(c) No
+(d) Yes
+(e) Yes
+
+2.
+(a) B+ = B, D, E
+(b) CF+ = C, F, B, D, E, A 
+(c) DF+ = D, F, A, E
+(d) BC+ = B, C, D, E
+(e) ABC+ = A, B, C, D, E
+
+3.
+(a) No
+(b) Yes
+(c) No
+(d) No
+(e) Yes

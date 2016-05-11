@@ -1,0 +1,58 @@
+Question1:
+b2210-18:~/csc343db/prep7$ xmllint guests.xml                                 
+<?xml version="1.0" standalone="yes"?>                                        
+<GuestList>                                                                   
+   <Event date="150113" start="1400" end="1630"/>                             
+   <Invitee nickname="Pumpkin" response="yes">                                
+      <Who age="7" email="diane@gmail.com">                                   
+         <First>Catherine</First>                                             
+         <Middle>Julia</Middle>                                               
+         <Last>Fairgrieve</Last>                                              
+      </Who>                                                                  
+   </Invitee>                                                                 
+   <Invitee response="no">                                                    
+      <Who age="6" email="cm@gmail.com">                                      
+         <First>Chloe</First>                                                 
+         <Last>McLaughlin</Last>                                              
+      </Who>                                                                  
+   </Invitee>                                                                 
+</GuestList>
+
+Question2:
+1. First, Middle, Last
+2. Event
+3. GuestList
+4. age
+
+Question3:
+b2210-18:~/csc343db/prep7$ xmllint --valid recipes.xml
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE RECIPES [
+<!ELEMENT RECIPES (RECIPE)+>
+<!ELEMENT RECIPE (INGREDIENTS , STEPS)>
+<!ATTLIST RECIPE name CDATA #REQUIRED>
+<!ATTLIST RECIPE type CDATA #IMPLIED>
+<!ATTLIST RECIPE keywords CDATA #IMPLIED>
+<!ELEMENT INGREDIENTS (INGREDIENT)+>
+<!ELEMENT INGREDIENT (NAME , QUANTITY)>
+<!ELEMENT NAME (#PCDATA)>
+<!ELEMENT QUANTITY EMPTY>
+<!ATTLIST QUANTITY amount CDATA #REQUIRED>
+<!ELEMENT STEPS (STEP)>
+<!ELEMENT STEP (#PCDATA)>
+]>
+<RECIPES>
+   <RECIPE name="hard-boiled egg" type="breakfast" keywords="protein easy">
+      <INGREDIENTS>
+         <INGREDIENT>
+             <NAME>egg</NAME>
+             <QUANTITY amount="1"/>
+         </INGREDIENT>
+      </INGREDIENTS>
+      <STEPS>
+         <STEP>
+            Boil for 12 minutes.
+         </STEP>
+      </STEPS>
+   </RECIPE>
+</RECIPES>

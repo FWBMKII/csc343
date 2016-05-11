@@ -1,0 +1,160 @@
+Checking Assignment 3 (Part 1) Solutions
+
+========== Generating query output ==========
+
+------ Query q1 ------
+
+Raw results:
+
+------ Query q2 ------
+
+Raw results:
+
+------ Query q3 ------
+
+Raw results:
+
+------ Query q4 ------
+
+Raw results:
+
+------ Query q5 ------
+
+Raw results:
+
+------ Query q6 ------
+
+Raw results:
+
+------ Query q7 ------
+
+Raw results:
+<skills><skill name="C"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="1"/></skill><skill name="Haskell"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="1"/><count level="4" n="0"/><count level="5" n="0"/></skill><skill name="SQL"><count level="1" n="1"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="1"/><count level="5" n="0"/></skill><skill name="MATLAB"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="0"/></skill><skill name="XQuery"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="0"/></skill><skill name="R"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="2"/><count level="4" n="0"/><count level="5" n="0"/></skill><skill name="Java"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="0"/></skill></skills>
+
+Pretty results:
+<?xml version="1.0" standalone="no"?>
+<skills>
+  <skill name="C">
+    <count level="1" n="0"/>
+    <count level="2" n="0"/>
+    <count level="3" n="0"/>
+    <count level="4" n="0"/>
+    <count level="5" n="1"/>
+  </skill>
+  <skill name="Haskell">
+    <count level="1" n="0"/>
+    <count level="2" n="0"/>
+    <count level="3" n="1"/>
+    <count level="4" n="0"/>
+    <count level="5" n="0"/>
+  </skill>
+  <skill name="SQL">
+    <count level="1" n="1"/>
+    <count level="2" n="0"/>
+    <count level="3" n="0"/>
+    <count level="4" n="1"/>
+    <count level="5" n="0"/>
+  </skill>
+  <skill name="MATLAB">
+    <count level="1" n="0"/>
+    <count level="2" n="0"/>
+    <count level="3" n="0"/>
+    <count level="4" n="0"/>
+    <count level="5" n="0"/>
+  </skill>
+  <skill name="XQuery">
+    <count level="1" n="0"/>
+    <count level="2" n="0"/>
+    <count level="3" n="0"/>
+    <count level="4" n="0"/>
+    <count level="5" n="0"/>
+  </skill>
+  <skill name="R">
+    <count level="1" n="0"/>
+    <count level="2" n="0"/>
+    <count level="3" n="2"/>
+    <count level="4" n="0"/>
+    <count level="5" n="0"/>
+  </skill>
+  <skill name="Java">
+    <count level="1" n="0"/>
+    <count level="2" n="0"/>
+    <count level="3" n="0"/>
+    <count level="4" n="0"/>
+    <count level="5" n="0"/>
+  </skill>
+</skills>
+
+------ Query q8 ------
+
+Raw results:
+<report><interview><who rID="01" forename="yifei" surname="yang"/><position>front</position><match>-4</match><average>22.5</average></interview><interview><who rID="02" forename="yuan" surname="wang"/><position>front</position><match>-8</match><average>34.6666666667</average></interview><interview><who rID="02" forename="yuan" surname="wang"/><position>upside</position><match>-2</match><average>50</average></interview><interview><who rID="03" forename="jianqi" surname="feng"/><position>upside</position><match>-2</match><average>70.75</average></interview><interview><who rID="02" forename="yuan" surname="wang"/><position>downstairs</position><match>0</match><average>66</average></interview><interview><who rID="04" forename="zhonghao" surname="liu"/><position>downstairs</position><match>-4</match><average>65.3333333333</average></interview><interview><who rID="04" forename="zhonghao" surname="liu"/><position>front</position><match>-2</match><average>71</average></interview><interview><who rID="10" forename="" surname=""/><position>back</position><match>-10</match><average>61.6</average></interview><interview><who rID="04" forename="zhonghao" surname="liu"/><position>back</position><match>-10</match><average>74.4</average></interview></report>
+
+Pretty results:
+<?xml version="1.0" standalone="no"?>
+<report>
+  <interview>
+    <who rID="01" forename="yifei" surname="yang"/>
+    <position>front</position>
+    <match>-4</match>
+    <average>22.5</average>
+  </interview>
+  <interview>
+    <who rID="02" forename="yuan" surname="wang"/>
+    <position>front</position>
+    <match>-8</match>
+    <average>34.6666666667</average>
+  </interview>
+  <interview>
+    <who rID="02" forename="yuan" surname="wang"/>
+    <position>upside</position>
+    <match>-2</match>
+    <average>50</average>
+  </interview>
+  <interview>
+    <who rID="03" forename="jianqi" surname="feng"/>
+    <position>upside</position>
+    <match>-2</match>
+    <average>70.75</average>
+  </interview>
+  <interview>
+    <who rID="02" forename="yuan" surname="wang"/>
+    <position>downstairs</position>
+    <match>0</match>
+    <average>66</average>
+  </interview>
+  <interview>
+    <who rID="04" forename="zhonghao" surname="liu"/>
+    <position>downstairs</position>
+    <match>-4</match>
+    <average>65.3333333333</average>
+  </interview>
+  <interview>
+    <who rID="04" forename="zhonghao" surname="liu"/>
+    <position>front</position>
+    <match>-2</match>
+    <average>71</average>
+  </interview>
+  <interview>
+    <who rID="10" forename="" surname=""/>
+    <position>back</position>
+    <match>-10</match>
+    <average>61.6</average>
+  </interview>
+  <interview>
+    <who rID="04" forename="zhonghao" surname="liu"/>
+    <position>back</position>
+    <match>-10</match>
+    <average>74.4</average>
+  </interview>
+</report>
+
+======= Validating xml generated by queries 7 and 8 =======
+
+------ Query q7 ------
+Results Well-formed? (no news is good news)
+Results valid? (no news is good news)
+
+------ Query q8 ------
+Results Well-formed? (no news is good news)
+Results valid? (no news is good news)

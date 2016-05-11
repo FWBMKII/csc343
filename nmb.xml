@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<a p="hello">
+<b x="1" y="5"/>
+<c n="100">
+<d real="true">no way</d>
+<d real="false">yes way</d>
+<d real="false">possibly</d>
+</c>
+<b x="3" y="1"/>
+<b x="2" y="6"/>
+<c n="52">
+<d real="false">truly</d>
+</c>
+<c n="50">
+<d real="true">really</d>
+<d real="true">actually</d>
+</c>
+</a> 

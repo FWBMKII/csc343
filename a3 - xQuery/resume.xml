@@ -1,0 +1,197 @@
+<resumes>
+	<resume rID="01" >
+		<summary>GPA 4.0</summary>
+		<identification>
+			<name>
+				<forename>yifei</forename>
+				<surname>yang</surname>
+				<honorific>Dr</honorific>
+				<honorific>Professor</honorific>
+				<title>Archer</title>
+				<title>Professor</title>
+			</name>
+			<sex>male</sex>
+			<DOB>10/08/1993</DOB>
+			<citizenship>Chinese</citizenship>
+			<address>21 college st</address>
+			<telephone>647-785-5301</telephone>
+			<email>yifei.yang@mail.utoronto.ca</email>
+		</identification>
+		<education>
+			<degree level="doctoral">
+				<degreename>Dr</degreename>
+				<institution>University of Toronto</institution>
+				<major>Computer Science</major>
+				<minor>Physics</minor>
+				<honours/>
+				<period>
+					<startDate>10/9/2012</startDate>
+					<endDate>30/4/2016</endDate>
+				</period>
+			</degree>
+		</education>
+		<experience>
+			<position>
+				<title>CSC343 TA</title>
+				<description>teacher assistant</description>
+				<period>
+					<startDate>10/9/2014</startDate>
+					<endDate>3/12/2014</endDate>
+				</period>
+			</position>
+		</experience>
+		<skills>
+			<skill what="java" level="5"/>
+			<skill what="SQL" level="4"/>
+			<skill what="python" level="3"/>
+			<skill what="R" level="3"/>
+			<skill what="Haskell" level="3"/>
+			<skill what="C" level="5"/>
+		</skills>
+	</resume>
+	<resume rID="02">
+		<summary>GPA 4.0</summary>
+		<identification>
+			<name>
+				<forename>yuan</forename>
+				<surname>wang</surname>
+				<honorific>Professor</honorific>
+				<title>Professor</title>
+			</name>
+			<sex>male</sex>
+			<DOB>15/09/1992</DOB>
+			<citizenship>Chinese</citizenship>
+			<address>832 bay st</address>
+			<telephone>647-785-1035</telephone>
+			<email>yuan.wang@mail.utoronto.ca</email>
+		</identification>
+		<education>
+			<degree level="doctoral">
+				<degreename>Dr</degreename>
+				<institution>University of Toronto</institution>
+				<major>Computer Science</major>
+				<minor>Math</minor>
+				<honours/>
+				<period>
+					<startDate>10/9/2012</startDate>
+					<endDate>30/4/2016</endDate>
+				</period>
+			</degree>
+			<degree level="masters">
+				<degreename>master</degreename>
+				<institution>University of Toronto</institution>
+				<major>Physics</major>
+				<honours/>
+				<period>
+					<startDate>10/9/2011</startDate>
+					<endDate>30/4/2012</endDate>
+				</period>
+			</degree>
+		</education>
+		<experience>
+			<position>
+				<title>CSC309 TA</title>
+				<description>teacher assistant</description>
+				<period>
+					<startDate>10/9/2014</startDate>
+					<endDate>3/12/2014</endDate>
+				</period>
+			</position>
+		</experience>
+		<skills>
+			<skill what="java" level="4"/>
+			<skill what="SQL" level="1"/>
+			<skill what="python" level="4"/>
+			<skill what="Xquery" level="4"/>
+			<skill what="R" level="3"/>
+		</skills>
+	</resume>
+	<resume rID="03" >
+		<identification>
+			<name>
+				<forename>jianqi</forename>
+				<surname>feng</surname>
+				<honorific>Student</honorific>
+			</name>
+			<sex>male</sex>
+			<DOB>10/01/1993</DOB>
+			<citizenship>Chinese</citizenship>
+			<address>832 college st</address>
+			<telephone>647-745-4624</telephone>
+			<email>jianqi.feng@mail.utoronto.ca</email>
+		</identification>
+		<education>
+			<degree level="doctoral">
+				<degreename>Dr</degreename>
+				<institution>University of Toronto</institution>
+				<major>Computer Science</major>
+				<minor>Math</minor>
+				<minor>art</minor>
+				<period>
+					<startDate>10/9/2012</startDate>
+					<endDate>30/4/2016</endDate>
+				</period>
+			</degree>
+		</education>
+		<experience>
+		</experience>
+		<skills>
+			<skill what="java" level="5"/>
+			<skill what="matlab" level="2"/>
+			<skill what="python" level="3"/>
+		</skills>
+	</resume>
+	<resume rID="04" >
+		<summary>good student</summary>
+		<identification>
+			<name>
+				<forename>zhonghao</forename>
+				<surname>liu</surname>
+				<honorific>student</honorific>
+				<title>student</title>
+			</name>
+			<sex>male</sex>
+			<DOB>15/07/1994</DOB>
+			<citizenship>Chinese</citizenship>
+			<address>78 college st</address>
+			<telephone>647-721-4982</telephone>
+			<email>zhonghao.liu@mail.utoronto.ca</email>
+		</identification>
+		<education>
+			<degree level="professional">
+				<degreename>Dr</degreename>
+				<institution>University of Toronto</institution>
+				<major>Computer Science</major>
+				<minor>Physics</minor>
+				<honours/>
+				<period>
+					<startDate>10/9/2012</startDate>
+					<endDate>30/4/2016</endDate>
+				</period>
+			</degree>
+		</education>
+		<experience>
+			<position>
+				<title>CSC343 TA</title>
+				<description>teacher assistant</description>
+				<period>
+					<startDate>10/9/2014</startDate>
+					<endDate>3/12/2014</endDate>
+				</period>
+			</position>
+			<position>
+				<title>translator</title>
+				<description>translate english into chinese for movie</description>
+				<period>
+					<startDate>15/1/2013</startDate>
+					<endDate>3/2/2013</endDate>
+				</period>
+			</position>
+		</experience>
+		<skills>
+		</skills>
+	</resume>
+</resumes>
+
+
+

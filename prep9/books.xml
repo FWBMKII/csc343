@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes" ?>
+<!DOCTYPE BookList [
+   <!ELEMENT BookList (Book+)>
+   <!ATTLIST Book title CDATA #REQUIRED>
+   <!ATTLIST Book year CDATA #REQUIRED>
+   <!ELEMENT Book (Author+, Rating+, Review*)>
+   <!ELEMENT Author (#PCDATA)>
+   <!ELEMENT Rating (#PCDATA)>
+   <!ELEMENT Review (#PCDATA)>
+   <!ATTLIST Review username CDATA #REQUIRED>
+]>
+<BookList>
+   <Book title="book1" year = "2001">
+      <Author>Author11</Author>
+      <Rating>0</Rating>
+      <Rating>0</Rating>
+      <Review username = "shaobing">LZSB</Review>
+   </Book>
+   <Book title="book2" year = "2002">
+      <Author>Author21</Author>
+      <Author>Author22</Author>
+      <Rating>3</Rating>
+      <Rating>4</Rating>
+   </Book>
+   <Book title="book3" year = "2003">
+      <Author>Author31</Author>
+      <Rating>4</Rating>
+      <Rating>5</Rating>
+   </Book>
+</BookList>

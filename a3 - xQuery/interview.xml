@@ -1,0 +1,159 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE interviews SYSTEM "interview.dtd">
+ <interviews>
+
+	<interview rID="01" pID="01" sID="01" >
+		<date>20130508</date>
+		<time>8:36</time>
+		<location>third floor</location>
+		<assessment>
+			<answers>
+				<answer qID="01">100</answer>
+				<answer qID="08">30</answer> 
+			</answers>
+			<techProficiency>0</techProficiency>
+			<communication>0</communication>
+			<enthusiasm>0</enthusiasm>
+			<collegiality>5</collegiality>
+		</assessment>
+	</interview>
+
+	<interview rID="02" pID="01" sID="02" >
+		<date>20130508</date>
+		<time>8:36</time>
+		<location>third floor</location>
+		<assessment>
+			<answers>
+				<answer qID="01">90</answer>
+				<answer qID="08">78</answer>
+			</answers>
+			<techProficiency>0</techProficiency>
+			<communication>10</communication>
+			<enthusiasm>20</enthusiasm>
+			<collegiality>10</collegiality>
+		</assessment>
+	</interview>
+
+	<interview rID="02" pID="02" sID="02" >
+		<date>20130406</date>
+		<time>18:25</time>
+		<location>second floor</location>
+		<assessment>
+			<techProficiency>25</techProficiency>
+			<communication>50</communication>
+			<enthusiasm>75</enthusiasm>
+		</assessment>
+	</interview>
+
+	<interview rID="03" pID="02" sID="03" >
+		<date>20130406</date>
+		<time>19:25</time>
+		<location>Outside</location>
+		<assessment>
+			<answers>
+				<answer qID="05">87</answer>
+			</answers>
+			<techProficiency>48</techProficiency>
+			<communication>55</communication>
+			<enthusiasm>93</enthusiasm>
+		</assessment>
+	</interview>
+
+	<interview rID="02" pID="03" sID="02" >
+		<date>20130206</date>
+		<time>18:25</time>
+		<location>second floor</location>
+		<assessment>
+			<answers>
+				<answer qID="011">87</answer>
+				<answer qID="012">89</answer>
+				<answer qID="013">70</answer>
+			</answers>
+			<techProficiency>25</techProficiency>
+			<communication>50</communication>
+			<enthusiasm>75</enthusiasm>
+		</assessment>
+	</interview>
+
+	<interview rID="04" pID="03" sID="04" >
+		<date>20130206</date>
+		<time>19:45</time>
+		<location>Outside</location>
+		<assessment>
+			<techProficiency>48</techProficiency>
+			<communication>55</communication>
+			<enthusiasm>93</enthusiasm>
+		</assessment>
+	</interview>
+
+	<interview rID="04" pID="04" sID="04" >
+		<date>20130806</date>
+		<time>19:45</time>
+		<location>Outside</location>
+		<assessment>
+			<techProficiency>48</techProficiency>
+			<communication>75</communication>
+			<enthusiasm>90</enthusiasm>
+		</assessment>
+	</interview>
+
+	<interview rID="10" pID="05" sID="01" >
+		<date>20140706</date>
+		<time>13:33</time>
+		<location>Inside</location>
+		<assessment>
+			<answers>
+				<answer qID="1">85</answer>
+			</answers>
+			<techProficiency>13</techProficiency>
+			<communication>49</communication>
+			<enthusiasm>78</enthusiasm>
+			<collegiality>83</collegiality>
+		</assessment>
+	</interview>
+
+	<interview rID="04" pID="05" sID="04" >
+		<date>20140706</date>
+		<time>15:33</time>
+		<location>Inside</location>
+		<assessment>
+			<answers>
+				<answer qID="02">95</answer>
+			</answers>
+			<techProficiency>13</techProficiency>
+			<communication>96</communication>
+			<enthusiasm>75</enthusiasm>
+			<collegiality>93</collegiality>
+		</assessment>
+	</interview>
+
+	<interviewer sID="01">
+		<forename>yifei</forename>
+		<surname>yang</surname>
+		<honorific>Dr</honorific>
+		<honorific>Professor</honorific>
+		<title>Archer</title>
+		<title>Professor</title>
+	</interviewer>
+
+	<interviewer sID="02">
+		<forename>yuan</forename>
+		<surname>wang</surname>
+		<honorific>Professor</honorific>
+		<title>Professor</title>
+	</interviewer>
+
+	<interviewer sID="03">
+		<forename>jianqi</forename>
+		<surname>feng</surname>
+		<honorific>Student</honorific>
+	</interviewer>
+
+	<interviewer sID="04">
+		<forename>zhonghao</forename>
+		<surname>liu</surname>
+		<honorific>student</honorific>
+		<title>student</title>
+	</interviewer>
+
+</interviews> 

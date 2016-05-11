@@ -1,0 +1,1 @@
+Clinic(name, room_number, doctor_id)

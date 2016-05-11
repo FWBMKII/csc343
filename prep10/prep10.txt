@@ -1,0 +1,48 @@
+b2210-22:~/csc343db/prep10$ cat p1.xq
+let $a := (0,1,2,3,4,5) 
+let $b := (16,17,5,18)
+return (($a = $b), ($a != $b))
+b2210-22:~/csc343db/prep10$ galax-run p1.xq
+true(), true()
+
+b2210-22:~/csc343db/prep10$ cat p2.xq
+for $a in doc("property.xml")/PROPERTIES/PROPERTY/ADDRESS
+return $a/STREET
+b2210-22:~/csc343db/prep10$ galax-run p2.xq
+<STREET>Spadina Avenue</STREET>,
+<STREET>Beverly Street</STREET>,
+<STREET>Bloor Street West</STREET>,
+<STREET>Yonge Street</STREET>,
+<STREET>Spadina Avenue</STREET>,
+<STREET>Palmerston Blvd</STREET>
+
+b2210-22:~/csc343db/prep10$ cat p3.xq
+for $c in doc("property.xml")/PROPERTIES/PROPERTY/COMMERCIAL
+return $c/@sqft
+b2210-22:~/csc343db/prep10$ galax-run p3.xq
+attribute sqft {"1000"}, attribute sqft {"2000"}, attribute sqft {"1280"}
+
+b2210-22:~/csc343db/prep10$ cat p4.xq
+for $c in doc("property.xml")/PROPERTIES/PROPERTY/COMMERCIAL
+where $c/@sqft > 1000
+return $c/@sqft
+b2210-22:~/csc343db/prep10$ galax-run p4.xq
+attribute sqft {"2000"}, attribute sqft {"1280"}
+
+b2210-22:~/csc343db/prep10$ cat p5.xq
+for $r in doc("property.xml")/PROPERTIES/PROPERTY/RESIDENTIAL
+let $si := $r/SINGLE_UNIT/INFO[RENT_AMOUNT<800]
+let $mi := $r/MULTI_UNIT/UNIT/INFO[RENT_AMOUNT<800]
+return ($si/RENT_AMOUNT, $mi/RENT_AMOUNT)
+b2210-22:~/csc343db/prep10$ galax-run p5.xq
+<RENT_AMOUNT>500</RENT_AMOUNT>, <RENT_AMOUNT>400</RENT_AMOUNT>
+
+b2210-22:~/csc343db/prep10$ cat p6.xq      
+let $output :=
+for $r in doc("property.xml")/PROPERTIES/PROPERTY/RESIDENTIAL
+        for $i in $r//INFO[RENT_AMOUNT<800]/RENT_AMOUNT
+        return  <DEAL>{data($i)}</DEAL>
+return <DEALS>{$output}</DEALS>
+b2210-22:~/csc343db/prep10$ galax-run p6.xq
+<DEALS><DEAL>500</DEAL><DEAL>400</DEAL></DEALS>
+b2210-22:~/csc343db/prep10$ 
